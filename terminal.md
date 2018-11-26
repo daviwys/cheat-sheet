@@ -43,7 +43,7 @@
 |FLÈCHE BAS		|Naviguer dans l'historique, +1 ligne (ligne de commandes de + en + récente)|
 |CTRL + N		|(N pour next)|
 
-Rechercher une commande dans l’historique :
+Rechercher une commande dans l’historique :  
 | RACCOURCI | DESCRIPTION |
 | --- | --- |
 |CTRL + R		|Recherche dans l’historique|
@@ -51,19 +51,19 @@ Rechercher une commande dans l’historique :
 
 Lorsque vous recherchez dans l’historique avec CTRL+r et que plusieurs occurrences sont trouvées, appuyez plusieurs fois sur C-r pour passer de l’une à l’autre. La recherche se fait de la commande la plus récente à la plus ancienne.
 
-Lors de l’écriture d’une commande, vous pouvez insérer le premier mot de la précédente commande exécutée. Pour cela :
+Lors de l’écriture d’une commande, vous pouvez insérer le premier mot de la précédente commande exécutée. Pour cela :  
 | RACCOURCI | DESCRIPTION |
 | --- | --- |
 |ALT + .		|Rappelle le premier mot de la précédente commande.|
 
 ## MANIPULER LE TEXTE
-Il est possible de supprimer un caractère avant ou après le curseur avec les raccourcis :
+Il est possible de supprimer un caractère avant ou après le curseur avec les raccourcis :  
 | RACCOURCI | DESCRIPTION |
 | --- | --- |
 |CTRL + D		|Supprime le caractère courant, et si la ligne est vide, ferme la console|
 |CTRL + H		|Supprimer le caractère qui se trouve avant le curseur.|
 
-Ces fonctions sont également disponibles pour supprimer les mots et les lignes :
+Ces fonctions sont également disponibles pour supprimer les mots et les lignes :  
 | RACCOURCI | DESCRIPTION |
 | --- | --- |
 |ALT + D		|Supprime le mot à droite du curseur, ou le reste du mot à partir du curseur et vers la droite|
@@ -75,19 +75,19 @@ Ces fonctions sont également disponibles pour supprimer les mots et les lignes 
 Ce presse‐papiers est différent de celui du bureau, avec lequel il ne communique pas !
 Il offre toutefois la fonction de Kill‐ring, comme Emacs : lorsque vous remplissez le presse‐papiers, ce dernier n’oublie pas ce qu’il contient. Tout est gardé en mémoire et vous pouvez choisir ce que vous voulez « coller ».
 
-Les raccourcis du presse‐papiers de Bash sont :
+Les raccourcis du presse‐papiers de Bash sont :  
 | RACCOURCI | DESCRIPTION |
 | --- | --- |
 |CTRL + Y		|« colle » le dernier élément présent dans le presse‐papiers, supprimé par CTRL+U, CTRL+W ou CTRL+K|
 |ALT + Y		|Après avoir utilisé CTRL+Y, intervertit le texte collé avec ce qui se trouvait précédemment dans le presse‐papiers|
 
-Bash permet également d’intervertir deux lettres ou deux mots :
+Bash permet également d’intervertir deux lettres ou deux mots :  
 | RACCOURCI | DESCRIPTION |
 | --- | --- |
 |CTRL + T		|Intervertit la lettre sous le curseur avec celle qui la précède|
 |ALT + T		|Pareil, avec deux mots|
 
-Enfin, il est possible de transformer la casse d’un mot :
+Enfin, il est possible de transformer la casse d’un mot :  
 | RACCOURCI | DESCRIPTION |
 | --- | --- |
 |ALT + U		|convertit un mot en majuscules, à partir du curseur|
@@ -101,14 +101,14 @@ Enfin, il est possible de transformer la casse d’un mot :
 |Clic avec la roulette de la souris	|Coller|
 
 ## ANNULER
-Il existe deux raccourcis pour annuler :
+Il existe deux raccourcis pour annuler :  
 | RACCOURCI | DESCRIPTION |
 | --- | --- |
 |CTRL + /		|Annule la dernière action (équivalent de CTRL+Z)|
 |CTRL + G		|Quitte une recherche dans l’historique.|
 
 ## GÉRER LES PROCESSUS
-Quand un processus est lancé en premier plan depuis Bash, les raccourcis suivants sont disponibles :
+Quand un processus est lancé en premier plan depuis Bash, les raccourcis suivants sont disponibles :  
 | RACCOURCI | DESCRIPTION |
 | --- | --- |
 |CTRL + C		|Terminer le processus. Ne vous inquiétez pas, il ne souffrira pas ;)|
@@ -117,7 +117,7 @@ Quand un processus est lancé en premier plan depuis Bash, les raccourcis suivan
 À noter que lors de l’écriture d’une commande, CTRL+C fait sauter le curseur sur une nouvelle ligne de commande vide.
 
 ## NETTOYER ET GÉRER L'AFFICHAGE
-Il est possible de manipuler ce que montre Bash à l’écran avec ces trois raccourcis :
+Il est possible de manipuler ce que montre Bash à l’écran avec ces trois raccourcis :  
 | RACCOURCI | DESCRIPTION |
 | --- | --- |
 |CTRL + L		|Nettoie l’écran, pour ne montrer qu’une invite de commande vide ; similaire à la commande clear|
