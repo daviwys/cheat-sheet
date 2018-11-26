@@ -44,6 +44,7 @@
 |CTRL + N		|(N pour next)|
 
 Rechercher une commande dans l’historique :  
+
 | RACCOURCI | DESCRIPTION |
 | --- | --- |
 |CTRL + R		|Recherche dans l’historique|
