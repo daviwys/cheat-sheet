@@ -1,140 +1,141 @@
-# TERMINAL : QUELQUE RACCOURCIS CLAVIERS
-
-## ONGLETS
-| RACCOURCI | DESCRIPTION |
+# TERMINAL : SOME SHORTCUTS 
+## TABS 
+| SHORTCUT | DESCRIPTION |
 | --- | --- |
-|CTRL + MAJ + T		|Nouvel onglet|
-|CTRL + MAJ + W		|Ferme l'onglet actif|
-|CTRL + PAGE UP		|Onglet précédent|
-|CTRL + PAGE DOWN	|Onglet suivant|
+|CTRL + SHIFT + T	|New tab|
+|CTRL + SHIFT + W	|Close active tab|
+|CTRL + PAGE UP		|Previous tab|
+|CTRL + PAGE DOWN	|Next tab|
 
-## AUTO-COMPLÉTION
-| RACCOURCI | DESCRIPTION |
+## AUTOCOMPLETE
+| SHORTCUT | DESCRIPTION |
 | --- | --- |
-|TAB			|Complète la ligne si un choix est possible|
+|TAB			|Complete the line if a choice is possible|
 |CTRL + I		|IDEM|
-|TAB + TAB		|Propose une liste de correspondance possibles|
+|TAB + TAB		|Proposes a list of possible correspondence|
 
-## HISTORIQUE DES COMMANDES
-| RACCOURCI | DESCRIPTION |
+## COMMAND LINE HISTORY
+| SHORTCUT | DESCRIPTION |
 | --- | --- |
-|history		|Historique des commandes en ordre inverse|
-|!n			|Exécute la commande avec le numéro de commande "n"|
-|!!			|Exécute la dernière commande|
-|!bla			|Exécute la commande commençant par bla|
+|history		|Historical of commands in reverse order|
+|!n			|Execute the command with the number of command "n"|
+|!!			|Execute the last command|
+|!bla			|Execute the command starting with "bla"|
 
-## MANIPULER LE CURSEUR
-| RACCOURCI | DESCRIPTION |
+## HISTORY AND EXECUTION OF ORDERS
+| SHORTCUT | DESCRIPTION |
 | --- | --- |
-|CTRL + A		|Va au début de la ligne|
-|CTRL + E		|Va à la fin de la ligne|
-|ALT + B		|Se déplace en arrière, mot par mot|
-|ALT + F		|Se déplace en avant, mot par mot|
-|CTRL + B		|Se déplacer en arrière, caractère par caractère|
-|CTRL + F		|Se déplacer en avant, caractère par caractère|
-|CTRL + XX		|Alterner entre la position actuelle du curseur et le début de la commande|
+|CTRL + M		|Validate the order, [ENTER]|
+|FLÈCHE HAUT		|Navigate in historic, -1 line (command line more and more ancient)
+|CTRL + P		|P for previous|
+|FLÈCHE BAS		|Navigate in historic, +1 line (command line more and more recent)|
+|CTRL + N		|N for next|
 
-## HISTORIQUE ET EXÉCUTION DE COMMANDES
-| RACCOURCI | DESCRIPTION |
+Search a command in the history :
+
+| SHORTCUT | DESCRIPTION |
 | --- | --- |
-|CTRL + M		|Retour charriot, [ENTRÉE]|
-|FLÈCHE HAUT		|Naviguer dans l'historique, -1 ligne (ligne commandes de + en + ancienne)|
-|CTRL + P		|(P pour previous)|
-|FLÈCHE BAS		|Naviguer dans l'historique, +1 ligne (ligne de commandes de + en + récente)|
-|CTRL + N		|(N pour next)|
+|CTRL + R		|Search in the historic|
+|ALT + R		|if, in command prompt, you have modified a line recalled of historic, this shortcut puts back in state (as it is in the hstoric|
 
-Rechercher une commande dans l’historique :  
+When you search in history with CTRL+r and that multiple occurences are found, press CTRL+r repeatedly to switch between them. The search is from the most recent to the oldest.
 
-| RACCOURCI | DESCRIPTION |
+When writing a command, you can insert the first word of the previous command executeda. for that :
+
+| SHORTCUT | DESCRIPTION |
 | --- | --- |
-|CTRL + R		|Recherche dans l’historique|
-|ALT + R		|Si, dans l’invite de commande, vous avez modifié une ligne rappelée de l’historique, ce raccourcis la remet en l’état (telle qu’elle se trouve dans l’historique).|
+|ALT + .		|Recall the first word of the previous command|
 
-Lorsque vous recherchez dans l’historique avec CTRL+r et que plusieurs occurrences sont trouvées, appuyez plusieurs fois sur C-r pour passer de l’une à l’autre. La recherche se fait de la commande la plus récente à la plus ancienne.
-
-Lors de l’écriture d’une commande, vous pouvez insérer le premier mot de la précédente commande exécutée. Pour cela :  
-
-| RACCOURCI | DESCRIPTION |
+## MANIPULATE THE CURSOR
+| SHORTCUT | DESCRIPTION |
 | --- | --- |
-|ALT + .		|Rappelle le premier mot de la précédente commande.|
+|CTRL + A		|Go to the beginning of the line|
+|CTRL + E		|Go to the end of the line|
+|ALT + B		|Moves back, word by word|
+|ALT + F		|Moves forward, word by word|
+|CTRL + B		|Moves back, character by character|
+|CTRL + F		|Moves forward, character by character|
+|CTRL + XX		|Alternate between the actual cursor position and the start of the command|
 
 ## MANIPULER LE TEXTE
-Il est possible de supprimer un caractère avant ou après le curseur avec les raccourcis :  
+It is possible to delete a character before or after the cursor with the shortcuts :
 
-| RACCOURCI | DESCRIPTION |
+| SHORTCUT | DESCRIPTION |
 | --- | --- |
-|CTRL + D		|Supprime le caractère courant, et si la ligne est vide, ferme la console|
-|CTRL + H		|Supprimer le caractère qui se trouve avant le curseur.|
+|CTRL + D		|Delete the current character and, if the line is blank, close the terminal|
+|CTRL + H		|Delete the character which is before the cursor|
 
-Ces fonctions sont également disponibles pour supprimer les mots et les lignes :  
+These functions are also available for delete the words and the lines :
 
-| RACCOURCI | DESCRIPTION |
+| SHORTCUT | DESCRIPTION |
 | --- | --- |
-|ALT + D		|Supprime le mot à droite du curseur, ou le reste du mot à partir du curseur et vers la droite|
-|CTRL + W		|Supprime le mot à gauche du curseur,  ou le reste du mot à partir du curseur et vers la gauche|
-|CTRL + K		|Supprimer du curseur jusqu’à la fin de la commande|
-|CTRL + U		|Supprimer du curseur jusqu’au début de la commande|
+|ALT + D		|Delete the word at right of cursor, or the rest of word from cursor and towards right|
+|CTRL + W		|Delete yhe word at left of cursor, or the rest of word towards left|
+|CTRL + K		|Delete from cursor until the end of command|
+|CTRL + U		|Delete from cursor until start of command|
 
-À noter que les mots ou lignes supprimés avec les commandes précédentes se retrouveront dans le presse‐papiers de Bash.
-Ce presse‐papiers est différent de celui du bureau, avec lequel il ne communique pas !
-Il offre toutefois la fonction de Kill‐ring, comme Emacs : lorsque vous remplissez le presse‐papiers, ce dernier n’oublie pas ce qu’il contient. Tout est gardé en mémoire et vous pouvez choisir ce que vous voulez « coller ».
+Note that words or lines deleted with previous commands will be in the Bash clipboard.
+This clipboard is different that the one in the desktop, with which he doesn't communicate !
 
-Les raccourcis du presse‐papiers de Bash sont :  
+When you fill the clipboard, he does not forget what he contains. Everything is kept in memory and you can choose what you want to paste. 
 
-| RACCOURCI | DESCRIPTION |
+The shortcuts of clipboard of Bash are :
+
+| SHORTCUT | DESCRIPTION |
 | --- | --- |
-|CTRL + Y		|« colle » le dernier élément présent dans le presse‐papiers, supprimé par CTRL+U, CTRL+W ou CTRL+K|
-|ALT + Y		|Après avoir utilisé CTRL+Y, intervertit le texte collé avec ce qui se trouvait précédemment dans le presse‐papiers|
+|CTRL + Y		|Paste the last element into the clipboard, deleted by CTRL+U, CTRL+W ou CTRL+K|
+|ALT + Y		|After using CTRL+Y, invert the text pasted with what was previously in the clipboard|
 
-Bash permet également d’intervertir deux lettres ou deux mots :  
+Bash also allows you to swap two letters or two words :
 
-| RACCOURCI | DESCRIPTION |
+| SHORTCUT | DESCRIPTION |
 | --- | --- |
-|CTRL + T		|Intervertit la lettre sous le curseur avec celle qui la précède|
-|ALT + T		|Pareil, avec deux mots|
+|CTRL + T		|Invert the letter under cursor with the one that precedes it|
+|ALT + T		|Same, with 2 words|
 
-Enfin, il est possible de transformer la casse d’un mot :  
+Finally, it is possible to transform the case of a word :
 
-| RACCOURCI | DESCRIPTION |
+| SHORTCUT | DESCRIPTION |
 | --- | --- |
-|ALT + U		|convertit un mot en majuscules, à partir du curseur|
-|ALT + L		|Convertit un mot en minuscules, à partir du curseur|
-|ALT + C		|Capitalise un mot (la 1ère lettre d'un mot en majuscule)|
+|ALT + U		|Convert a word in uppercase, from the cursor|
+|ALT + L		|Convert a word in lowercase, from the cursor|
+|ALT + C		|Capitalize a word (the first letter of word in uppercase)|
 
-|CTRL + MAJ + C		|Copier|
-|Sélectionnez le texte	|Copier|
-
-|CTRL + MAJ + V		|Coller|
-|Clic avec la roulette de la souris	|Coller|
-
-## ANNULER
-Il existe deux raccourcis pour annuler :  
-
-| RACCOURCI | DESCRIPTION |
+## COPY/PASTE
+| SHORTCUT | DESCRIPTION |
 | --- | --- |
-|CTRL + /		|Annule la dernière action (équivalent de CTRL+Z)|
-|CTRL + G		|Quitte une recherche dans l’historique.|
+|CTRL + SHIFT + C	|Copy|
+|Sélectionnez le texte	|Copy|
+|CTRL + SHIFT + V			|Paste|
+|Clic avec la roulette de la souris	|Paste|
 
-## GÉRER LES PROCESSUS
-Quand un processus est lancé en premier plan depuis Bash, les raccourcis suivants sont disponibles :  
+## CANCEL 
 
-| RACCOURCI | DESCRIPTION |
+There are 2 shortcuts to cancel :
+
+| SHORTCUT | DESCRIPTION |
 | --- | --- |
-|CTRL + C		|Terminer le processus. Ne vous inquiétez pas, il ne souffrira pas ;)|
-|CTRL + Z		|Mettre en pause le processus. Peut être relancé en premier plan ou en arrière‐plan avec les commandes fg ou bg. La commande jobs liste les processus en pause.|
+|CTRL + /		|Undo the last action (equivalent to CTRL+Z)|
+|CTRL + G		|Leave a search into historic|
 
-À noter que lors de l’écriture d’une commande, CTRL+C fait sauter le curseur sur une nouvelle ligne de commande vide.
+## MANAGE THE PROCESSES
+When a process is started in the foreground from Bash, the following shortcuts are available :
 
-## NETTOYER ET GÉRER L'AFFICHAGE
-Il est possible de manipuler ce que montre Bash à l’écran avec ces trois raccourcis :  
-
-| RACCOURCI | DESCRIPTION |
+| SHORTCUT | DESCRIPTION |
 | --- | --- |
-|CTRL + L		|Nettoie l’écran, pour ne montrer qu’une invite de commande vide ; similaire à la commande clear|
-|CTRL + S		|Stoppe l’affichage ; très utile quand un programme très verbeux s’exécute|
-|CTRL + Q		|Reprend l’affichage stoppé avec CTRL+S|
+|CTRL + C		|Finish the process. Do not worry, he will not suffer ;)|
+|CTRL + Z		|Pause the process. Can be revived in the foreground or background with the commands "fg" or "bg". The command "jobs" list the processes in pause.|
+
+## CLEAN AND MANAGE THE DISPLAY
+It is possible to manipulate what Bash shows on the screen with these three shortcuts :
+
+| SHORTCUT | DESCRIPTION |
+| --- | --- |
+|CTRL + L		|Cleans the screen to show only a command prompt blank|
+|CTRL + S		|Stop the display ; very useful when a very verbose program runs|
+|CTRL + Q		|Resumes the display stopped with CTRL+S|
 
 ## END OF FILE
-Il existe un raccourci pour envoyer le caractère EOF (End Of File) : CTRL + D
-Si l’on envoie ce caractère sur une ligne de commande, cela équivaut à la commande exit
+There is a shortcut to send the EOF (End Of File) character: CTRL + D
+If you send this character on a command line, this is equivalent to the exit command.
 
