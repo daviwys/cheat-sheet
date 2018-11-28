@@ -1,4 +1,4 @@
-# TERMINAL : SOME SHORTCUTS 
+# ![Logo](__https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiit-eO9vbeAhVE3RoKHbF9B8oQjhx6BAgBEAM&url=https%3A%2F%2Fde.wikipedia.org%2Fwiki%2FDatei%3APowerShell_5.0_icon.png&psig=AOvVaw2pFBX21BhsMIWoY2w30a-F&ust=1543488823407756__) TERMINAL : SOME SHORTCUTS 
 ## TABS 
 | SHORTCUT | DESCRIPTION |
 | --- | --- |
