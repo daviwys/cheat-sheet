@@ -1,4 +1,4 @@
-![Logo](__https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png__) 
+![Logo](__img/PowerShell_5.0_icon.png__)
 # TERMINAL : SOME SHORTCUTS 
 ## TABS 
 | SHORTCUT | DESCRIPTION |
